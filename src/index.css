@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+
+@theme {
+  --color-yellowBg: #eaa23e;
+  --color-deepYellow: #eb8b06;
+  --color-whiteBg: #eeeaea;
+  --color-deepDark: #032f2b;
+  --color-paleWhite: #827e7e;
+  --color-greenBg: #01413bcc;
+  --color-ashWhite : #1e1e1e;
+  --color-whiteText: #5f5b5b;
+  --color-whiteBorder: #dfdede;
+  --color-ashText: #797979;
+}
+
+* {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heroBg {
+  background-image: url("/heroBgLg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .heroBg {
+    background-image: url("/heroBgSm.png");
+  }
+}
