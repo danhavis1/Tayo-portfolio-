@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col pt-20 lg:pt-10 lg:justify-center lg:item-center h-full">
           <div className="w-[85%] lg:w-[75%] mx-auto lg:mx-0 lg:ml-auto">
-            <img src="/avatar.png" alt="avatar" />
+            <img src="/avatar2.png" alt="avatar" />
           </div>
         </div>
       </div>
