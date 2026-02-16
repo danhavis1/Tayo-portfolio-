@@ -5,7 +5,7 @@ export default function Footer() {
   return (
    <div className="w-full  bg-greenBg">
     <div className="container mx-auto py-5 px-4 xl:px-8 flex justify-between items-center h-20 text-white">
-      <p>© 2024 Sarah Mitchell - Teacher & Academic Coach. All rights reserved.</p>
+      <p>© 2026 Temitayo Olayinka - Teacher & Academic Coach. All rights reserved.</p>
       <div className="hidden lg:flex space-x-4 text-white ">
   <div className=" bg-white text-slate-600 rounded-full p-4">
   <a href="https://github.com/danhavis1" target="_blank" >
